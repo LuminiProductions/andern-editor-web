@@ -32,9 +32,11 @@ export default function Menu() {
           >
             Close <IoCloseCircleOutline size={24} color="#F3E8FF" />
           </button>
-          <span class="p-4 w-full font-bold text-purple-100 text-xl flex flex-row justify-between items-center border-b-2 border-b-purple-100">
-            Login <IoCloseCircleOutline size={24} color="#F3E8FF" />
-          </span>
+          <Show>
+            <span class="p-4 w-full font-bold text-purple-100 text-xl flex flex-row justify-between items-center border-b-2 border-b-purple-100">
+              Login <IoCloseCircleOutline size={24} color="#F3E8FF" />
+            </span>
+          </Show>
         </div>
         <span class="p-4 flex justify-end items-center gap-2">
           <A
